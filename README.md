@@ -52,7 +52,7 @@ Utilize the `WriteHop` module to create `.hop` files with support for:
 - **Nesting Operations**: Optimize material usage through nesting.
 
 ## Examples
-For more detailed examples of how to use nc-hops for reading and writing .hop files, please refer to the example scripts available in the [repository](https://gitlab.com/brejabrejic/Hops).
+For more detailed examples of how to use nc-hops for reading and writing .hop files, please refer to the example scripts available in the [repository](https://github.com/apers0/nc-hops).
 
 ## Project Status
 

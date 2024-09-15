@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "nc-hops"
-version = "0.2.4"
+version = "0.2.5"
 description = "Hop file writer and reader"
 readme = "README.md"
 requires-python = ">=3.6"
@@ -16,7 +16,11 @@ authors = [
     {name = "Aleksa Marceta", email = "aleksa.marceta@gmail.com"}
 ]
 
-urls = {homepage = "https://gitlab.com/brejabrejic/Hops"}
+[project.urls]
+Homepage = "https://github.com/apers0/nc-hops"
+Repository = "https://github.com/apers0/nc-hops"
+Issues = "https://github.com/apers0/nc-hops/issues"
+Download = "https://pypi.org/project/nc-hops"
 
 dependencies = [
     "Pillow~=10.0.1",
@@ -32,7 +36,7 @@ classifiers = [
 ]
 
 [tool.setuptools]
-packages = ["WriteHop", "ReadHop"]  # Include your packages explicitly
+packages = ["WriteHop", "ReadHop", "BetterNest"]
 package-dir = {"" = "src"}
 
 [project.optional-dependencies]
