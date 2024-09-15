@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+*.hop
+.idea/
+.venv/
+build/
+dist/
+src/nc_hops.egg-info
