@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='Hops',
-    version='0.2.5',
+    version='0.2.6',
     author='Nikola Brajic',
     author_email='nikolabrajic@proton.me',
     description='Hop file writer and reader',
